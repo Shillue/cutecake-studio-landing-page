@@ -54,7 +54,15 @@ Design inspirado em layout encontrado no Pinterest (landing page de loja de bolo
 
 
 ## 🚀 Como executar
-
+Clone este repositório:
+``brash
+git clone https://github.com/Shillue/cutecake-studio-landing-page.git
+``   
+Acesse a pasta do projeto:
+``brash
+cd cutecake-studio-landing-page
+``    
+Abra o arquivo index.html no navegador.   
 
 ## 👩‍💻 Autoria
 
