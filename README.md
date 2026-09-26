@@ -52,7 +52,8 @@ Catálogo completo de produtos com opção de expandir e recolher os itens.
 <img width="200" height="510" alt="Pré-visualização cuteCake com catalogo" src="https://github.com/user-attachments/assets/ebed08e5-f9ca-4353-ba33-5ca0b0fb9c3a" />
 
 ## 🔗 Links
-🔴 Projeto online: 
+🔴 Projeto online: [Link](https://shillue.github.io/cutecake-studio-landing-page/)
+
 
 ## 📁 Estrutura do projeto
 
