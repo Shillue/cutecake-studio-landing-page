@@ -1,0 +1,871 @@
+/*Telas de 1850xp até 1850px*/
+@media (max-width: 1850px) {
+
+    /* Main */
+    .titulo__main {
+        font-size: 15rem;
+    }
+
+    .img__main {
+        width: 500px;
+        height: auto;
+        top: 150px;
+    }
+
+    .hero__content__titulo {
+        font-size: 2.5rem;
+    }
+
+    .hero__content__subtitulo {
+        font-size: 2.5rem;
+    }
+
+    .hero__content__paragraph {
+        font-size: 1rem;
+    }
+
+    .fresh__badge {
+        width: 270px;
+        height: 200px;
+    }
+
+    .badge {
+        width: 220px;
+        height: 175px;
+    }
+
+    .badge h2 {
+        font-size: 2rem;
+    }
+
+    .badge p {
+        font-size: 1.5rem;
+    }
+
+    .hero__ribbon {
+        font-size: 0.7rem;
+    }
+}
+
+/* -------------------- */
+/* Tela até 1230px */
+/* -------------------- */
+@media (max-width: 1230px) {
+
+    /* Header */
+    .header {
+        padding: 1rem 1.2rem;
+    }
+
+    .menu__left ul,
+    .menu__right ul {
+        gap: 1rem;
+    }
+
+    .menu__left ul li a,
+    .menu__right ul li a {
+        padding: 0.1rem;
+        font-size: 1rem;
+    }
+
+    .logo .logo__name {
+        font-size: 2.5rem;
+    }
+
+    .logo .logo__sub {
+        font-size: 1rem;
+    }
+
+    .header__right {
+        gap: 1rem;
+    }
+
+    .header__right .header__actions {
+        gap: 0.75rem;
+    }
+
+    /* Main */
+    .content {
+        padding: 1rem 0rem;
+    }
+
+    .hero {
+        padding: 0.2rem;
+    }
+
+    /* Conteúdo esquerdo */
+    .hero__content {
+        width: 220px;
+        margin-left: 0.5rem;
+        top: 190px;
+        left: 2%;
+    }
+
+    /* Icon Heart  */
+    .hero__content .heart i {
+        font-size: 2.5rem;
+    }
+
+    .hero__content__titulo {
+        font-size: 2rem;
+        margin: -20px 0px 10px;
+    }
+
+    .hero__content__subtitulo {
+        font-size: 2rem;
+    }
+
+    .hero__content__paragraph {
+        font-size: 1rem;
+        margin: 0px 0px 20px;
+    }
+
+    .hero__content__link {
+        padding: 0.5rem;
+        gap: 0.5rem;
+        font-size: 1rem;
+    }
+
+    .hero__content__link i {
+        width: 1.75rem;
+        height: 1.75rem;
+        font-size: 0.95rem;
+    }
+
+    /* Hero__main - Imagem e titulo Main */
+    .img__main {
+        top: 200px;
+        width: 500px;
+        height: auto;
+    }
+
+    .titulo__main {
+        top: 30px;
+        font-size: 13rem;
+    }
+
+    /* Selo de novidades */
+    .fresh__badge {
+        width: 220px;
+        height: 190px;
+        right: 4%;
+        top: 220px;
+        margin-right: 0;
+    }
+
+    /* Icon heart badge */
+    .fresh__badge .heart i {
+        font-size: 2.5rem;
+    }
+
+    /*Folha de papel - Selo de novidade*/
+    .badge {
+        max-width: 170px;
+        height: 160px;
+        margin: 10px 25px;
+    }
+
+    .badge h2 {
+        font-size: 1.8rem;
+    }
+
+    .badge p {
+        font-size: 1.25rem;
+    }
+
+    /* Faixas */
+    .hero__ribbon {
+        gap: 1.2rem;
+    }
+
+    /* scroll */
+    .hero__scroll {
+        bottom: 5px;
+    }
+
+}
+
+/* -------------------- */
+/* Tela até 1000px */
+/* -------------------- */
+
+@media (max-width: 1000px) {
+
+    /* Header */
+    .menu__left ul,
+    .menu__right ul {
+        gap: 0.75rem;
+    }
+
+    .menu__left ul li a,
+    .menu__right ul li a {
+        padding: 0.05rem;
+        font-size: 0.85rem;
+    }
+
+    .logo .logo__name {
+        font-size: 2.5rem;
+    }
+
+    .logo .logo__sub {
+        font-size: 1rem;
+    }
+
+    .header__right {
+        gap: 0.6rem;
+    }
+
+    .header__right .header__actions {
+        gap: 0.75rem;
+    }
+
+    .design {
+        gap: 0.5rem;
+        padding: 0.5rem 0.75rem;
+        font-size: 0.85rem;
+    }
+
+    .design .fa-solid {
+        width: 1.25rem;
+        height: 1.25rem;
+        font-size: 0.75rem;
+    }
+
+    .carrinho {
+        width: 2.25rem;
+        height: 2.25rem;
+    }
+
+    .carrinho .fa-solid {
+        font-size: 1rem;
+    }
+
+    /* Main */
+    .content {
+        padding: 0.25rem 0rem;
+    }
+
+    .hero {
+        height: 530px;
+    }
+
+    /* Conteúdo esquerdo */
+    .hero__content {
+        top:130px;
+    }
+
+    /* Icon Heart  */
+    .hero__content .heart i {
+        font-size: 2rem;
+    }
+
+    .hero__content__titulo {
+        font-size: 1.85rem;
+    }
+
+    .hero__content__subtitulo {
+        font-size: 1.85rem;
+    }
+
+    .hero__content__paragraph {
+        font-size: 0.85rem;
+        margin: 0px 0px 10px;
+    }
+
+    .hero__content__link {
+        font-size: 0.85rem;
+    }
+
+    .hero__content__link i {
+        width: 1.5rem;
+        height: 1.5rem;
+        font-size: 0.9rem;
+    }
+
+    /* Hero__main - Imagem e titulo Main */
+    .img__main {
+        top: 110px;
+        width: 400px;
+        height: auto;
+    }
+
+    .titulo__main {
+        top: 10px;
+        font-size: 12rem;
+    }
+
+    /* Selo de novidades */
+    .fresh__badge {
+        width: 190px;
+        height: 150px;
+        top: 100px;
+        right: 3%
+    }
+
+    /* Icon heart badge */
+    .fresh__badge .heart {
+        margin-bottom: -45px;
+        margin-left: 5px;
+    }
+
+    .fresh__badge .heart i {
+        font-size: 2rem;
+    }
+
+    .badge {
+        max-width: 150px;
+        height: 130px;
+        margin: 2px 25px;
+    }
+
+    .badge h2 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    .badge p {
+        font-size: 1.25rem;
+    }
+
+    /* Faixas */
+    .hero__ribbon {
+        height: 30px;
+        gap: 1.5rem;
+        padding: 0 2rem;
+        font-size: 0.75rem;
+    }
+
+    /* Faixa pink e roxa */
+    .hero__ribbon__pink,
+    .hero__ribbon__purple {
+        top: 390px;
+    }
+
+    /* Seta de Scroll down  */
+    .hero__scroll {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    /* Scrool down - Icon */
+    .hero__scroll i {
+        font-size: 1.1rem;
+    }
+
+    /* Produtos */
+    .products {
+        width: 90%;
+    }
+
+    .products__arrow {
+        width: 2.5rem;
+        height: 2.5rem;
+        font-size: 1.1rem;
+    }
+
+    .product__card {
+        width: 210px;
+        height: 320px;
+    }
+
+    .product__card__img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .product__card__dados {
+        width: 200px;
+    }
+
+    .card__infor .ver_mais {
+        height: 1.75rem;
+        width: 1.75rem;
+        font-size: 1rem;
+    }
+
+    /* Catálogo */
+    .catalogo {
+        width: 95%;
+    }
+
+    .catalogo__categoria h2 {
+        width: 50%;
+        font-size: 2.2rem;
+    }
+
+    .catalogo__list {
+        gap: 0.7rem;
+    }
+
+    /* Footer */
+    .rodape {
+        padding: 1.5rem;
+    }
+}
+
+
+/* -------------------- */
+/* Tela até 810px */
+/* -------------------- */
+@media (max-width: 810px) {
+
+    /* Header */
+    .menu__left{
+        position: relative;
+    }
+
+    .menu__toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 2.5rem;
+        height: 2.5rem;
+        padding: 0.1rem;
+        font-size: 1.5rem;
+        border: none;
+        background: transparent;
+        cursor: pointer;
+        color: var(--color-primary);
+        z-index: 10;
+    }
+
+    /* Esconder o menu */
+    .menu__left ul {
+        display: none;
+        position: absolute;
+        top: calc(100% + 0.5rem);
+        left: 0;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+        width: max-content;
+        min-width: 180px;
+        padding: 1rem;
+        border-radius: 1rem;
+        background-color: var(--color-white);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+        z-index: 9;
+    }
+
+    .menu__left.aberto ul {
+        display: flex;
+    }
+
+    .menu__left ul li {
+        width: 100%;
+    }
+
+    .menu__left ul li a {
+        display: block;
+        width: 100%;
+        padding: 0.5rem;
+        font-size: 1rem;
+        border-radius: 8px;
+        transition: color 0.2 ease, background-color 0.2s ease;
+    }
+
+    .menu__left ul li a:hover{
+        color: var(--color-primary);
+        background-color: var(--color-bg);
+    }
+    /*Menu left e right*/
+    .menu__left ul,
+    .menu__right ul {
+        gap: 0.75rem;
+    }
+
+    .menu__right ul li a {
+        padding: 0.5rem;
+        font-size: 0.75rem;
+    }
+
+    .logo .logo__name {
+        font-size: 2.25rem;
+    }
+
+    .logo .logo__sub {
+        font-size: 0.9rem;
+    }
+
+    .header__right {
+        gap: 0.5rem;
+    }
+
+    .header__right .header__actions {
+        gap: 0.7rem;
+    }
+
+    .design {
+        padding: 0.5rem;
+        font-size: 0.7rem;
+    }
+
+    /* Main */
+    .hero {
+        height: 450px;
+    }
+
+    .hero__content {
+        width: 160px;
+        top: 110px;
+    }
+
+    .hero__content__titulo {
+        font-size: 1.5rem;
+        margin-bottom: 5px;
+    }
+
+    .hero__content__subtitulo {
+        font-size: 1.25rem;
+    }
+
+    .hero__content__paragraph {
+        font-size: 0.7rem;
+        padding-right: 0.5rem;
+    }
+
+    .hero__content__link {
+        font-size: 0.7rem;
+        padding: 0.5rem 0.25rem;
+        gap: 0.5rem;
+    }
+
+    .hero__content__link i {
+        width: 1.25rem;
+        height: 1.25rem;
+        font-size: 0.75rem;
+    }
+
+    /* Hero__main - Imagem e titulo Main */
+    .img__main {
+        top: 150px;
+        width: 300px;
+        height: 250px;
+    }
+
+    .titulo__main {
+        top: 15px;
+        font-size: 9rem;
+    }
+
+    /* Selo de novidades */
+    .fresh__badge {
+        width: 170px;
+        height: 150px;
+        top: 100px;
+        margin-right: 0.25rem;
+    }
+
+    /* Icon heart badge */
+    .fresh__badge .heart {
+        margin-bottom: -35px;
+    }
+
+    .badge {
+        max-width: 130px;
+        height: 110px;
+        margin: 2px 25px;
+    }
+
+    .badge h2 {
+        font-size: 1.4rem;
+        margin-bottom: 5px;
+    }
+
+    .badge p {
+        font-size: 1.1rem;
+    }
+
+    /* Faixas */
+    .hero__ribbon {
+        gap: 0.85rem;
+        font-size: 0.65rem;
+    }
+
+    /* Faixa pink */
+    .hero__ribbon__pink,
+    .hero__ribbon__purple {
+        top: 350px;
+    }
+
+    /* Produtos */
+    .products {
+        width: 92%;
+    }
+
+    /* Main Categories */
+    .categories .btn__categ {
+        padding: 0.7rem 1.5rem;
+        font-size: 1rem;
+    }
+
+    /* Catálogo */
+    .catalogo {
+        width: 96%;
+    }
+
+    .catalogo__categoria {
+        padding: 1.5rem 0 0.5rem;
+    }
+
+    .catalogo__categoria h2 {
+        width: 65%;
+        font-size: 2rem;
+    }
+
+    .catalogo__list {
+        gap: 0.6rem;
+    }
+
+    .catalogo__toggle {
+        padding: 0.5rem 4rem;
+        font-size: 1rem;
+    }
+
+}
+
+/* -------------------- */
+/* Tela até 500px */
+/* -------------------- */
+@media (max-width: 500px) {
+    .header {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 1.2em;
+        padding: 1.2rem 0.2rem 0.5rem;
+    }
+
+    /* Meu esquerdo */
+    .menu__left {
+        padding: 0rem 1rem;
+    }
+
+    .logo {
+        position: absolute;
+        left: 50%;
+        top: 1rem;
+        transform: translateX(-50%);
+    }
+
+    .header__right {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2rem;
+        width: 100%;
+        padding: 1rem 1.1rem;
+    }
+
+    .design {
+        font-weight: 400;
+        font-size: 0.6rem;
+        gap: 0.2rem;
+    }
+
+    /* Main */
+    .content {
+        width: 100%;
+    }
+
+    .hero {
+        height: 480px;
+    }
+
+    .hero__content {
+        width: 60%;
+        top: 300px;
+        align-items: center;
+    }
+
+    .hero__content__titulo {
+        margin-top: -35px;
+    }
+
+    .hero__content__paragraph {
+        padding: 0.1rem 0.5rem;
+    }
+
+    .hero__content__link {
+        gap: 0.9rem;
+    }
+
+    /* Hero__main - Imagem e titulo Main */
+    .img__main {
+        top: 60px;
+        width: 250px;
+        height: auto;
+    }
+
+    .titulo__main {
+        top: 5px;
+        font-size: 7rem;
+    }
+
+    /* Selo de novidades */
+    .fresh__badge {
+        top: 320px;
+        margin-right: 1rem;
+    }
+
+    .badge::after {
+        bottom: 5px;
+        right: 5px;
+    }
+
+    /* Faixas */
+    .hero__ribbon {
+        gap: 0.85rem;
+        height: 20px;
+        font-size: 0.5rem;
+    }
+
+    /* Faixa pink e roxo*/
+    .hero__ribbon__pink,
+    .hero__ribbon__purple {
+        top: 220px;
+    }
+
+    /* Catálogo */
+    .catalogo {
+        width: 100%;
+        padding: 0.5rem 0.25rem;
+    }
+
+    .catalogo__categoria {
+        padding: 1.25rem 0 0.5rem;
+    }
+
+    .catalogo__categoria h2 {
+        width: 80%;
+        font-size: 1.7rem;
+        padding-bottom: 0.2rem;
+    }
+
+    .catalogo__list {
+        gap: 0.5rem;
+    }
+
+    .catalogo__toggle {
+        padding: 0.5rem 3rem;
+        font-size: 0.95rem;
+    }
+
+}
+
+/* -------------------- */
+/* Tela até 430px */
+/* -------------------- */
+@media (max-width: 430px) {
+    /* Header */
+    .header {
+        gap: 0.3rem;
+    }
+    .menu__left ul {
+        min-width: 150px;
+    }
+    .menu__left ul li a {
+        font-size: 0.75rem;
+    }
+
+     .header__right {
+        gap: 1rem;
+    }
+    .design {
+        gap: 0.5rem;
+        padding: 0.25rem 0.5rem;
+    }
+    /* Main */
+    .hero__content {
+        width: 100%;
+        margin: 0;
+        right: 0;
+    }
+
+    /* Icon Heart  */
+    .hero__content .heart {
+        width: 75%;
+    }
+
+    .hero__content__link {
+        width: 180px;
+    }
+
+    .titulo__main {
+        top: 5px;
+        font-size: 6rem;
+    }
+
+    /* Selo de novidades */
+    .fresh__badge {
+        top: 140px;
+        right: 5%;
+        margin-right: 0;
+    }
+
+    .fresh__badge .heart{
+        width: 90%;
+    }
+
+    .badge {
+        max-width: 120px;
+        height: 100px;
+    }
+
+    .badge h2 {
+        font-size: 1rem;
+    }
+    
+    /* Main Categories */
+    .categories {
+        gap: 1rem;
+        margin: 1.5rem 1rem;
+    }
+
+    .categories .btn__categ {
+        padding: 0.5rem 1.1rem;
+        font-size: 0.85rem;
+    }
+
+    /* Produtos */
+    .products {
+        width: 90%;
+    }
+
+    .products__arrow {
+        width: 2.25rem;
+        height: 2.25rem;
+    }
+
+    .product__card {
+        width: 180px;
+        height: 300px;
+    }
+
+    .product__card__img {
+        width: 170px;
+        height: 180px;
+    }
+
+    .product__card__dados {
+        width: 170px;
+        height: 100px;
+    }
+
+    .card__apresent h3 {
+        font-size: 0.9rem;
+    }
+
+    .card__apresent p {
+        font-size: 0.75rem;
+    }
+
+    /* Footer */
+    .rodape {
+        padding: 1rem;
+    }
+
+    .rodape p {
+        font-size: 0.7rem;
+    }
+
+}

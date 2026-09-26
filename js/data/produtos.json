@@ -1,0 +1,242 @@
+[
+    {
+        "id": 1,
+        "nome": "Veludo de Mirtilo",
+        "categoria": "classicos",
+        "descricao": "A partir de 1 kg . 8-10 pessoas",
+        "preco": 119.90,
+        "imagem": "./assets/images/veludo de mirtilo-classico-01.jpeg"
+    },
+    { 
+        "id": 2, 
+        "nome": "Nuvem de Lavanda", 
+        "categoria": "bento", 
+        "descricao": "A partir de 500 g · 2-4 pessoas", 
+        "preco": 64.90, 
+        "imagem": "./assets/images/nuvem de lavanda-bento-01.jpeg" 
+    },
+    {
+        "id": 3,
+        "nome": "Mousse de Amora", 
+        "categoria": "classicos", 
+        "descricao": "A partir de 1 kg · 8-10 pessoas", 
+        "preco": 119.90, 
+        "imagem": "./assets/images/Mousse de Amora-classico-05.jpeg"
+    },
+    {
+        "id": 4,
+        "nome": "Pistache & Framboesa",
+        "categoria": "coloridos",
+        "descricao": "A partir de 1 kg . 8-10 pessoas",
+        "preco": 149.90,
+        "imagem": "./assets/images/pistache e framboesa-colorido-10.jpeg"
+    },
+    {
+        "id": 5,
+        "nome": "Brigadeiro",
+        "categoria": "cake-to-go",
+        "descricao":"A partir de 500 g · 2-4 pessoas",
+        "preco": 54.90,
+        "imagem":"./assets/images/brigadeiro-cake to go-01.jpeg"
+    },
+    {
+        "id": 6,
+        "nome": "Cereja & chocolate",
+        "categoria": "no-copo",
+        "descricao": "250 ml . 1 pessoa",
+        "preco": 16.90,
+        "imagem": "./assets/images/cereja e chocolate- no copo-01.jpeg"
+    },
+    {
+        "id": 7,
+        "nome": "Jardim de Rosas",
+        "categoria": "classicos",
+        "descricao": "A partir de 1 kg . 8-10 pessoas",
+        "preco": 129.90,
+        "imagem": "./assets/images/Jardim de Rosas-classico-06.jpeg"
+    },
+    {
+        "id": 8,
+        "nome": "Arco-íris",
+        "categoria": "coloridos",
+        "descricao": "A partir de 1 kg . 8-10 pessoas",
+        "preco": 129.90,
+        "imagem": "./assets/images/arco-ires - colorido-01.jpeg"
+    },
+    {
+        "id": 9,
+        "nome": "Cat Cake",
+        "categoria": "bento",
+        "descricao": "A partir de 500 g · 2-4 pessoas",
+        "preco": 59.90,
+        "imagem": "./assets/images/cat cake-bento-03.jpeg"
+    },
+    {
+        "id": 10,
+        "nome": "Morango & Brigadeiro",
+        "categoria": "no-copo",
+        "descricao": "250 ml . 1 pessoa",
+        "preco": 16.90,
+        "imagem": "./assets/images/morango e brigadeiro-no copo-03.jpeg"
+    },
+    {
+        "id": 11,
+        "nome": "Strawberry Donut Cake",
+        "categoria": "coloridos",
+        "descricao": "A partir de 1 kg . 8-10 pessoas",
+        "preco": 134.90,
+        "imagem": "./assets/images/strawberry donut cake-colorido-09.jpeg"
+    },
+    {
+        "id": 12,
+        "nome": "Doce de Leite",
+        "categoria": "classicos",
+        "descricao": "A partir de 1 kg . 8-10 pessoas",
+        "preco": 104.90,
+        "imagem": "./assets/images/doce de leite - classico-02.jpeg"
+    },
+    {
+        "id": 13,
+        "nome": "Naked Cake",
+        "categoria": "cake-to-go",
+        "descricao": "A partir de 500 g · 2-4 pessoas",
+        "preco": 54.90,
+        "imagem": "./assets/images/Naked cake- cake to go-04.jpeg"
+    },
+    {
+        "id": 14,
+        "nome": "Red Velvet",
+        "categoria": "no-copo",
+        "descricao": "250 ml . 1 pessoa",
+        "preco": 17.90,
+        "imagem": "./assets/images/red velvet-no copo-04.jpeg"
+    },
+    {
+        "id": 15,
+        "nome": "Manga & Morango",
+        "categoria": "coloridos",
+        "descricao":"A partir de 1 kg · 8-10 pessoas",
+        "preco": 129.90,
+        "imagem": "./assets/images/manga e morango-colorido-07.jpeg"
+    },
+    {
+        "id": 16,
+        "nome":"Chocolate & Doce de Leite",
+        "categoria": "classicos",
+        "descricao":"A partir de 1 kg · 8-10 pessoas",
+        "preco": 114.90,
+        "imagem": "./assets/images/chocolate e doce de leite-classico-07.jpeg"
+    },
+    {
+        "id": 17,
+        "nome": "Happy Birthday",
+        "categoria": "bento",
+        "descricao":"A partir de 500 g · 2-4 pessoas",
+        "preco": 59.90,
+        "imagem": "./assets/images/Happy Birthday-bento-02.jpeg"
+    },
+    {
+        "id": 18,
+        "nome": "Chocolate & Cookies",
+        "categoria": "no-copo",
+        "descricao": "250 ml . 1 pessoa",
+        "preco": 15.90,
+        "imagem": "./assets/images/chocolate e cookies-no copo-02.jpeg"
+    },
+    {
+        "id": 19,
+        "nome": "Confetti Color Cake",
+        "categoria": "coloridos",
+        "descricao":"A partir de 1 kg · 8-10 pessoas",
+        "preco": 115.90,
+        "imagem": "./assets/images/confetti color cake-colorido-05.jpeg"
+    },
+    {
+        "id": 20,
+        "nome": "Baunilha & Ninho",
+        "categoria": "cake-to-go",
+        "descricao":"A partir de 500 g · 2-4 pessoas",
+        "preco": 59.90,
+        "imagem": "./assets/images/baunilha e leite ninho- cake to go - 05.jpeg"
+    },
+    {
+        "id": 21,
+        "nome": "Limon cake",
+        "categoria": "bento",
+        "descricao": "A partir de 500 g · 2-4 pessoas",
+        "preco": 54.90,
+        "imagem": "./assets/images/limon cake - bento-04.jpeg"
+    },
+    {
+        "id": 22,
+        "nome": "Morango",
+        "categoria": "classicos",
+        "descricao": "A partir de 1 kg . 8-10 pessoas",
+        "preco": 119.90,
+        "imagem": "./assets/images/morango-classico-04.jpeg"        
+    },
+    {
+        "id": 23,
+        "nome": "Blue Velvet Oreo Cheesecake",
+        "categoria": "coloridos",
+        "descricao":"A partir de 1 kg · 8-10 pessoas",
+        "preco": 139.90,
+        "imagem": "./assets/images/Blue Velvet Oreo Cheesecake-colorido-03.jpeg"
+    },
+    {
+        "id": 24,
+        "nome": "Leite Moça & Chocolate",
+        "categoria": "cake-to-go",
+        "descricao":"A partir de 500 g · 2-4 pessoas",
+        "preco": 59.90,
+        "imagem": "./assets/images/leite moça e chocolate-cake to go-03.jpeg"
+    },
+    {
+        "id": 25,
+        "nome": "Cereja",
+        "categoria": "classicos",
+        "descricao":"A partir de 1 kg · 8-10 pessoas",
+        "preco": 109.90,
+        "imagem": "./assets/images/cereja-classico-03.jpeg"
+    },
+    {
+        "id": 26,
+        "nome": "Blueberry & Cookies",
+        "categoria": "coloridos",
+        "descricao":"A partir de 1 kg . 8-10 pessoas",
+        "preco": 129.90,
+        "imagem": "./assets/images/blueberry e cookies-colorido-04.jpeg"
+    },
+    {
+        "id": 27,
+        "nome": "Morango",
+        "categoria": "cake-to-go",
+        "descricao": "A partir de 500 g · 2-4 pessoas",
+        "preco": 59.90,
+        "imagem":"./assets/images/morango-cake to go-02.jpeg"
+    },
+    {
+        "id": 28,
+        "nome": "Purple Party",
+        "categoria": "coloridos",
+        "descricao":"A partir de 1 kg · 8-10 pessoas",
+        "preco": 119.90,
+        "imagem": "./assets/images/purple party-colorido-06.jpeg"
+    },
+    {
+        "id": 29,
+        "nome": "Lemon",
+        "categoria": "coloridos",
+        "descricao": "A partir de 1 kg . 8-10 pessoas",
+        "preco": 124.90,
+        "imagem": "./assets/images/lemon - colorido-02.jpeg"
+    },
+    {
+        "id": 30,
+        "nome": "Morango, Chocolate & Cookies",
+        "categoria": "coloridos",
+        "descricao":"A partir de 1 kg · 8-10 pessoas",
+        "preco": 134.90,
+        "imagem": "./assets/images/morango, chocolate e cookies-colorido-08.jpeg"
+    }
+]

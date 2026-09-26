@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="UI Adventures, cuteCake, bolos fofos, Shilluê, landing pages modernas, desenvolvimento web front-end, UI design inspiração, projetos HTML CSS JavaScript, design de componentes web">
+    <meta name="description" content="cuteCake é um landing page para uma confeitaria fictícia desenvolvida com HTML, CSS e JavaScript." />
+    <meta name="author" content="Shilluê">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+    <!-- Style -->
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/responsive.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Fleur+De+Leah&family=Fredoka:wght@300..700&display=swap"
+    rel="stylesheet"/>
+
+    <!-- Favicon -->
+     <link rel="icon" type="image/" sizes="32x32" href="./assets/icons/cuteCake.png">
+
+    <title>Cutecake</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="menu__left">
+            <button class="menu__toggle" type="button" aria-label="Abrir menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <ul>
+                <li><a class="menu__left__link" href="#">Início</a></li>
+                <li><a class="menu__left__link" href="#">Sobremesas</a></li>
+                <li><a class="menu__left__link" href="#">Recheios</a></li>
+                <li><a class="menu__left__link" href="#">Sobre nós</a></li>
+            </ul>
+        </nav>
+
+        <!-- Logo -->
+        <div class="logo">
+            <span class="logo__name">CuteCake</span>
+            <span class="logo__sub">Studio</span>
+        </div>
+
+        <div class="header__right">
+            <nav class="menu__right">
+                <ul>
+                    <li><a class="menu__right__link" href="#">Avaliações</a></li>
+                    <li><a class="menu__right__link" href="#">Contato</a></li>
+                </ul>
+            </nav>
+
+            <div class="header__actions">
+                <a href="#" class="design">
+                    <span>Design personalizado</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+                <a href="#" class="carrinho" aria-label="Carrinho">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="content">
+        <section class="hero">
+            <!-- lado esquerdo -->
+            <section class="hero__content">
+                <div class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <h2 class="hero__content__titulo">Criados Com Amor</h2>
+                <h2 class="hero__content__subtitulo">Servimos felicidade</h2>
+                <p class="hero__content__paragraph">
+                    Sobremesas autorais com ingredientes frescos
+                </p>
+                <a href="http://" rel="noopener noreferrer" aria-label="Ver Sobremesas" class="hero__content__link">
+                    <span>Ver Sobremesas</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </section>
+
+            <div class="hero__main">
+                <h1 class="titulo__main">Bolos</h1>
+                <img class="img__main" src="./assets/images/imagem-main.png"
+                    alt="Ilustração de Bolo da cor roxa decorado com frutas vermelhas" />
+            </div>
+
+            <section class="fresh__badge">
+                <div class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="badge">
+                    <h2>OS MAIS FRESCOS</h2>
+                    <p>todos os dias!</p>
+                </div>
+            </section>
+
+            <!-- Faixas -->
+            <div class="hero__ribbon hero__ribbon__pink">
+                <span>✿ FEITO COM AMOR</span>
+                <span>✿ SOMENTE INGREDIENTES FRESCOS</span>
+                <span>✿ FEITO COM AMOR</span>
+                <span>✿ SOMENTE INGREDIENTES FRESCOS</span>
+                <span>✿ FEITO COM AMOR</span>
+                <span>✿ SOMENTE INGREDIENTES FRESCOS</span>
+                <span>✿ FEITO COM AMOR</span>
+                <span>✿ SOMENTE INGREDIENTES FRESCOS</span>
+                <span>✿ FEITO COM AMOR</span>
+                <span>✿ SOMENTE INGREDIENTES FRESCOS</span>
+            </div>
+
+            <div class="hero__ribbon hero__ribbon__purple">
+                <span>✿ FEITO COM AMOR</span>
+                <span>✿ SOMENTE INGREDIENTES FRESCOS</span>
+                <span>✿ FEITO COM AMOR</span>
+                <span>✿ SOMENTE INGREDIENTES FRESCOS</span>
+                <span>✿ FEITO COM AMOR</span>
+                <span>✿ SOMENTE INGREDIENTES FRESCOS</span>
+                <span>✿ FEITO COM AMOR</span>
+                <span>✿ SOMENTE INGREDIENTES FRESCOS</span>
+                <span>✿ FEITO COM AMOR</span>
+                <span>✿ SOMENTE INGREDIENTES FRESCOS</span>
+            </div>
+
+            <!-- Scroll down -->
+            <a href="#categorias" class="hero__scroll" aria-label="Ir para categorias">
+                <i class="fa-solid fa-angle-down"></i>
+            </a>
+        </section>
+
+        <!-- Categories -->
+        <section class="categories" id="categorias" >
+            <button class="btn__categ active" type="button" data-category="todos">Todos</button>
+            <button class="btn__categ" type="button" data-category="bento">Bento</button>
+            <button class="btn__categ" type="button" data-category="classicos">Clássicos</button>
+            <button class="btn__categ" type="button" data-category="coloridos">Coloridos</button>
+            <button class="btn__categ" type="button" data-category="cake-to-go">
+                Cake to go
+            </button>
+            <button class="btn__categ" type="button" data-category="no-copo">
+                No copo
+            </button>
+        </section>
+
+        <!-- Lista de Produtos -->
+        <section class="products">
+            <!-- Seta anterior -->
+            <button class="products__arrow products__arrow--prev" type="button" aria-label="Produtos anteriores">
+                <i class="fa-solid fa-angle-left"></i>
+            </button>
+
+            <div class="products__viewport">
+                 <ul class="products__list">
+                    <!-- produtos serão inseridos pelo JavaScript -->
+                </ul>
+            </div>
+
+            <!-- Seta Próximo -->
+            <button class="products__arrow products__arrow--next" type="button" aria-label="Próximos produtos">
+                <i class="fa-solid fa-angle-right"></i>
+            </button>
+        </section>
+
+        <section class="catalogo">
+            <div class="catalogo__conteudo">
+                <!-- Os produtos serão inseridos aqui pelo JavaScript -->              
+            </div>
+            <button class="catalogo__toggle" type="button">
+                Ver todos
+            </button>
+        </section>
+
+        
+
+    </main>
+
+    <footer class="rodape">
+        <p>Feito com <i class="fa-solid fa-heart"></i> por <a href="https://www.linkedin.com/in/shillu%C3%AA/" target="_blank" rel="noopener noreferrer">Shilluê</a>.</p>
+    </footer>
+
+    <script type="module" src="./js/main.js"></script>
+</body>
+
+</html>
