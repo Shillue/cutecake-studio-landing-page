@@ -54,7 +54,8 @@ Catálogo completo de produtos com opção de expandir e recolher os itens.
 ## 🔗 Links
 🔴 Projeto online: 
 
-📁 Estrutura do projeto
+## 📁 Estrutura do projeto
+
 CuteCake/     
 │      
 ├── index.html     
