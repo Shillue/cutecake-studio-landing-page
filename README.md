@@ -30,7 +30,7 @@ O CuteCake Studio é uma interface de confeitaria com uma identidade visual deli
 - ES Modules
 
 ## 🖼️ Modelo de Referência
-Design inspirado em layout encontrado no Pinterest (landing page de loja de bolos).
+Design inspirado em um layout encontrado no Pinterest, utilizado como referência visual para a criação da landing page.     
 
 <img width="300" height="370" alt="для заказа сайта под ключ, переходите по ссылке под пином — glonti_web" src="https://github.com/user-attachments/assets/8dd44ffd-2ce0-40d2-9a4b-655e1dcd4c94" />
 
@@ -41,28 +41,64 @@ Design inspirado em layout encontrado no Pinterest (landing page de loja de bolo
 ### 📱 Responsive      
 <img width="170" height="400" alt="Pré-visualização cuteCake para tela de celular" src="https://github.com/user-attachments/assets/2ad0a124-01a0-4d82-93cd-da4fb4335334" />
 
-## 🔧 Funcionalidade que não tinha no modelo
+## 🔧 Funcionalidades adicionadas em relação ao modelo
 
-### Menu Hambúrguer (810px)    
+### 🍔 Menu hambúrguer      
+Menu responsivo para dispositivos menores.     
 <img width="400" height="300" alt="Pré-visualização do Menu Hamburguer" src="https://github.com/user-attachments/assets/8ce7606b-32a0-4eb2-a483-ef20890453a7" />
 
-### Catalogo
+### 📋 Catálogo    
+Catálogo completo de produtos com opção de expandir e recolher os itens.    
 <img width="200" height="510" alt="Pré-visualização cuteCake com catalogo" src="https://github.com/user-attachments/assets/ebed08e5-f9ca-4353-ba33-5ca0b0fb9c3a" />
 
 ## 🔗 Links
 🔴 Projeto online: 
 
+📁 Estrutura do projeto
+CuteCake/     
+│      
+├── index.html     
+│      
+├── assets/      
+│   ├── icons/     
+│   │   └── cuteCake.png    
+│   │     
+│   └── images/    
+│       ├── veludo de mirtilo-classico-01.jpeg         
+│       ├── ...       
+│       └── outros produtos      
+│     
+├── styles/      
+│   ├── style.css      
+│   └── responsive.css    
+│    
+└── js/     
+    ├── main.js     
+    │    
+    ├── data/    
+    │   └── produtos.json     
+    │     
+    └── components/     
+        ├── carregarCatalogo.js      
+        ├── carregarProdutos.js      
+        ├── carrossel.js     
+        ├── categorias.js     
+        ├── criarCard.js     
+        ├── menu.js      
+        └── toggleCatalogo.js  
+        
 
 ## 🚀 Como executar
-Clone este repositório:
-``brash
+Clone este repositório:     
+``
 git clone https://github.com/Shillue/cutecake-studio-landing-page.git
 ``   
-Acesse a pasta do projeto:
-``brash
+Acesse a pasta do projeto:       
+``
 cd cutecake-studio-landing-page
 ``    
-Abra o arquivo index.html no navegador.   
+Como o projeto utiliza Fetch API para carregar os produtos do arquivo JSON, recomenda-se executá-lo através de um servidor local.       
+Depois, abra o projeto no navegador através do servidor local. 
 
 ## 👩‍💻 Autoria
 
